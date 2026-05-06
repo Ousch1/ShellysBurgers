@@ -39,14 +39,6 @@ export default function Hero() {
       {/* Contenido */}
       <div className="relative container-site text-center text-white py-32 flex flex-col items-center">
 
-        {/* Badge */}
-        <motion.div {...fadeUp(0.1)}>
-          <span className="inline-flex items-center gap-2 bg-brand-blue/20 border border-brand-blue/40 text-brand-blue-light text-xs font-body font-semibold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
-            <span className="w-2 h-2 rounded-full bg-brand-blue animate-pulse-slow" />
-            Ciudad Real · Desde 2025
-          </span>
-        </motion.div>
-
         {/* Título */}
         <motion.h1 {...fadeUp(0.2)} className="font-display text-7xl sm:text-8xl md:text-[9rem] lg:text-[11rem] leading-none tracking-wide text-white">
           SHELLY<span className="text-brand-blue">'S</span>
@@ -92,16 +84,6 @@ export default function Hero() {
           </a>
         </motion.div>
 
-        {/* Scroll indicator */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.2, duration: 0.6 }}
-          className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/40"
-        >
-          <span className="font-body text-xs tracking-widest uppercase">Scroll</span>
-          <div className="w-px h-10 bg-gradient-to-b from-white/40 to-transparent" />
-        </motion.div>
       </div>
     </section>
   )

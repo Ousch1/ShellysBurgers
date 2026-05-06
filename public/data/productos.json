@@ -6,7 +6,7 @@
     "precio": "9.50€",
     "imagen": "classic.jpg",
     "categoria": "hamburguesas",
-    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "precio": "10.50€",
     "imagen": "smoky.jpg",
     "categoria": "hamburguesas",
-    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "precio": "10.90€",
     "imagen": "bluecheese.jpg",
     "categoria": "hamburguesas",
-    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "precio": "12.50€",
     "imagen": "doubletrouble.jpg",
     "categoria": "hamburguesas",
-    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "precio": "9.00€",
     "imagen": "veggie.jpg",
     "categoria": "hamburguesas",
-    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "precio": "3.00€",
     "imagen": "fries.jpg",
     "categoria": "complementos",
-    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "precio": "3.50€",
     "imagen": "bravas.jpg",
     "categoria": "complementos",
-    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "precio": "3.50€",
     "imagen": "onionrings.jpg",
     "categoria": "complementos",
-    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "precio": "3.50€",
     "imagen": "cookies.jpg",
     "categoria": "postres",
-    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "precio": "4.50€",
     "imagen": "tartaqueso.jpg",
     "categoria": "postres",
-    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "precio": "4.00€",
     "imagen": "brownie.jpg",
     "categoria": "postres",
-    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
   {
     "id": 12,
@@ -105,7 +105,7 @@
     "precio": "2.50€",
     "imagen": "cocacola.jpg",
     "categoria": "bebidas",
-    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
   {
     "id": 13,
@@ -114,7 +114,7 @@
     "precio": "3.50€",
     "imagen": "cerveza.jpg",
     "categoria": "bebidas",
-    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
   {
     "id": 14,
@@ -123,7 +123,7 @@
     "precio": "4.50€",
     "imagen": "batido-oreo.jpg",
     "categoria": "bebidas",
-    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
   {
     "id": 15,
@@ -132,6 +132,6 @@
     "precio": "3.00€",
     "imagen": "limonada.jpg",
     "categoria": "bebidas",
-    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   }
 ]

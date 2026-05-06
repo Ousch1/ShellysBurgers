@@ -1,6 +1,13 @@
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import { HelmetProvider } from 'react-helmet-async'
+import { useEffect } from 'react'
+
+function ScrollToTop() {
+  const { pathname } = useLocation()
+  useEffect(() => { window.scrollTo(0, 0) }, [pathname])
+  return null
+}
 
 import Header  from './components/layout/Header'
 import Footer  from './components/layout/Footer'
@@ -17,6 +24,7 @@ export default function App() {
   return (
     <HelmetProvider>
       <div className="flex flex-col min-h-screen">
+        <ScrollToTop />
         <Header />
 
         <AnimatePresence mode="wait">

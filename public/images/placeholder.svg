@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#F3F4F6"/>
+  <!-- Burger silhouette -->
+  <g transform="translate(400,300)" opacity="0.25">
+    <!-- Top bun -->
+    <ellipse cx="0" cy="-80" rx="120" ry="60" fill="#D1A95A" rx="120"/>
+    <rect x="-120" y="-40" width="240" height="20" fill="#D1A95A"/>
+    <!-- Lettuce -->
+    <rect x="-130" y="-30" width="260" height="15" rx="7" fill="#86C76A"/>
+    <!-- Cheese -->
+    <rect x="-115" y="-20" width="240" height="12" rx="4" fill="#F4C842"/>
+    <!-- Patty -->
+    <rect x="-120" y="-10" width="240" height="35" rx="8" fill="#8B4513"/>
+    <!-- Bottom bun -->
+    <rect x="-130" y="25" width="260" height="28" rx="14" fill="#D1A95A"/>
+  </g>
+  <text x="400" y="500" font-family="sans-serif" font-size="18" fill="#9CA3AF" text-anchor="middle">
+    Añade tu imagen aquí
+  </text>
+</svg>

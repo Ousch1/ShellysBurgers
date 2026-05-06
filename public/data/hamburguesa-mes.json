@@ -1,0 +1,17 @@
+{
+  "nombre": "La Manchega Suprema",
+  "mes": "Mayo 2026",
+  "descripcion": "Doble smash premium, queso manchego curado fundido, cebolla caramelizada al vino tinto, rúcula silvestre, mayonesa de ajo negro asado, pan brioche artesano. Una oda a los sabores de la Mancha.",
+  "ingredientes": [
+    "Doble smash premium",
+    "Queso manchego curado fundido",
+    "Cebolla caramelizada al vino tinto",
+    "Rúcula silvestre",
+    "Mayonesa de ajo negro asado",
+    "Pan brioche artesano"
+  ],
+  "precio": "11.90€",
+  "imagen": "manchega-suprema.jpg",
+  "destacado": "Edición limitada — solo durante mayo",
+  "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+}

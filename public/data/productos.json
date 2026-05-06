@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "nombre": "Shelly's Classic",
+    "descripcion": "Doble smash, cheddar americano, bacon crujiente, salsa Shelly's secreta, pan brioche tostado",
+    "precio": "9.50€",
+    "imagen": "classic.jpg",
+    "categoria": "hamburguesas",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+  },
+  {
+    "id": 2,
+    "nombre": "The Smoky",
+    "descripcion": "Doble smash, gouda ahumado, bacon extra, cebolla caramelizada, salsa BBQ casera, pan brioche",
+    "precio": "10.50€",
+    "imagen": "smoky.jpg",
+    "categoria": "hamburguesas",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+  },
+  {
+    "id": 3,
+    "nombre": "Blue Cheese Smash",
+    "descripcion": "Doble smash, queso azul fundido, rúcula fresca, nueces, reducción de miel, pan brioche",
+    "precio": "10.90€",
+    "imagen": "bluecheese.jpg",
+    "categoria": "hamburguesas",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+  },
+  {
+    "id": 4,
+    "nombre": "Double Trouble",
+    "descripcion": "Triple smash, doble cheddar, doble bacon, pepinillos, cebolla, salsa especial Shelly's, pan brioche",
+    "precio": "12.50€",
+    "imagen": "doubletrouble.jpg",
+    "categoria": "hamburguesas",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+  },
+  {
+    "id": 5,
+    "nombre": "Veggie Smash",
+    "descripcion": "Smash de lentejas y champiñones, queso cheddar, aguacate fresco, tomate, lechuga, alioli suave",
+    "precio": "9.00€",
+    "imagen": "veggie.jpg",
+    "categoria": "hamburguesas",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+  },
+  {
+    "id": 6,
+    "nombre": "Patatas Fritas",
+    "descripcion": "Patatas crujientes cortadas a mano con sal marina y nuestra mezcla de especias",
+    "precio": "3.00€",
+    "imagen": "fries.jpg",
+    "categoria": "complementos",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+  },
+  {
+    "id": 7,
+    "nombre": "Patatas Bravas",
+    "descripcion": "Patatas crujientes con salsa brava casera picante y alioli cremoso",
+    "precio": "3.50€",
+    "imagen": "bravas.jpg",
+    "categoria": "complementos",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+  },
+  {
+    "id": 8,
+    "nombre": "Onion Rings",
+    "descripcion": "Aros de cebolla dulce rebozados con panko, fritos hasta el punto perfecto",
+    "precio": "3.50€",
+    "imagen": "onionrings.jpg",
+    "categoria": "complementos",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+  },
+  {
+    "id": 9,
+    "nombre": "Shelly's Cookies",
+    "descripcion": "Galletas artesanas con pepitas de chocolate negro, receta exclusiva de la casa",
+    "precio": "3.50€",
+    "imagen": "cookies.jpg",
+    "categoria": "postres",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+  },
+  {
+    "id": 10,
+    "nombre": "Tarta Queso Manchego",
+    "descripcion": "Cremosa tarta de queso manchego con mermelada artesana de higos de la región",
+    "precio": "4.50€",
+    "imagen": "tartaqueso.jpg",
+    "categoria": "postres",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+  },
+  {
+    "id": 11,
+    "nombre": "Brownie Casero",
+    "descripcion": "Brownie de chocolate negro con bola de helado de vainilla y sirope de caramelo",
+    "precio": "4.00€",
+    "imagen": "brownie.jpg",
+    "categoria": "postres",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+  },
+  {
+    "id": 12,
+    "nombre": "Coca-Cola",
+    "descripcion": "Lata 33cl bien fría",
+    "precio": "2.50€",
+    "imagen": "cocacola.jpg",
+    "categoria": "bebidas",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+  },
+  {
+    "id": 13,
+    "nombre": "Cerveza Artesana",
+    "descripcion": "Cerveza artesana local de barril, fresca y con carácter",
+    "precio": "3.50€",
+    "imagen": "cerveza.jpg",
+    "categoria": "bebidas",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+  },
+  {
+    "id": 14,
+    "nombre": "Batido Oreo",
+    "descripcion": "Batido cremoso de vainilla con galletas Oreo trituradas y nata",
+    "precio": "4.50€",
+    "imagen": "batido-oreo.jpg",
+    "categoria": "bebidas",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+  },
+  {
+    "id": 15,
+    "nombre": "Limonada Casera",
+    "descripcion": "Limonada fresca exprimida al momento con hierbabuena y azúcar moreno",
+    "precio": "3.00€",
+    "imagen": "limonada.jpg",
+    "categoria": "bebidas",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/shellys-burgers/"
+  }
+]

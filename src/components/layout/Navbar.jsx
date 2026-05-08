@@ -30,18 +30,18 @@ export default function Navbar() {
         transition-all duration-300
         ${isTransparent
           ? 'bg-transparent'
-          : 'bg-white/95 backdrop-blur-sm shadow-sm border-b border-gray-100'}
+          : 'bg-black/80 backdrop-blur-md border-b border-white/10'}
       `}
     >
       <div className="container-site flex items-center justify-between h-16 md:h-20">
 
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 group" aria-label="Shelly's Burgers – Inicio">
-          <span className={`font-display text-3xl tracking-wider transition-colors ${isTransparent ? 'text-white' : 'text-brand-dark'}`}>
+          <span className="font-display text-3xl tracking-wider text-white transition-colors">
             SHELLY
             <span className="text-brand-blue">'S</span>
           </span>
-          <span className={`font-display text-lg tracking-[0.2em] transition-colors ${isTransparent ? 'text-white/70' : 'text-gray-400'}`}>
+          <span className="font-display text-lg tracking-[0.2em] text-white/60 transition-colors">
             BURGERS
           </span>
         </Link>
@@ -57,7 +57,7 @@ export default function Navbar() {
                 transition-colors duration-200 pb-1
                 ${isTransparent
                   ? (isActive ? 'text-brand-blue' : 'text-white hover:text-brand-blue-light')
-                  : (isActive ? 'text-brand-blue' : 'text-gray-600 hover:text-brand-blue')}
+                  : (isActive ? 'text-brand-blue' : 'text-white/70 hover:text-brand-blue')}
                 after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-0.5
                 after:bg-brand-blue after:transition-all after:duration-300
                 ${isActive ? 'after:w-full' : 'after:w-0 hover:after:w-full'}
@@ -73,7 +73,7 @@ export default function Navbar() {
           <GlovoButton size="sm" className="hidden sm:inline-flex" />
 
           <button
-            className={`md:hidden p-2 rounded-lg transition-colors ${isTransparent ? 'text-white hover:bg-white/10' : 'text-brand-dark hover:bg-gray-100'}`}
+            className="md:hidden p-2 rounded-lg text-white hover:bg-white/10 transition-colors"
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label={menuOpen ? 'Cerrar menú' : 'Abrir menú'}
             aria-expanded={menuOpen}
@@ -91,7 +91,7 @@ export default function Navbar() {
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.25, ease: 'easeInOut' }}
-            className="md:hidden bg-white border-t border-gray-100 overflow-hidden"
+            className="md:hidden bg-black/90 border-t border-white/10 overflow-hidden"
           >
             <nav className="container-site py-4 flex flex-col gap-1" aria-label="Menú móvil">
               {NAV_LINKS.map(({ href, label }) => (
@@ -101,8 +101,8 @@ export default function Navbar() {
                   className={({ isActive }) => `
                     font-body font-medium py-3 px-4 rounded-xl transition-colors
                     ${isActive
-                      ? 'bg-brand-blue/10 text-brand-blue'
-                      : 'text-gray-700 hover:bg-gray-50 hover:text-brand-blue'}
+                      ? 'bg-brand-blue/20 text-brand-blue'
+                      : 'text-white/70 hover:bg-white/10 hover:text-brand-blue'}
                   `}
                 >
                   {label}

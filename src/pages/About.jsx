@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
-import { MdVerified, MdLocalFireDepartment } from 'react-icons/md'
 import { Link } from 'react-router-dom'
+import { MdVerified } from 'react-icons/md'
 
 const TIMELINE = [
   { year: '2025', titulo: 'El comienzo', texto: 'Shelly\'s Burgers abre sus puertas en el corazón de Ciudad Real con una propuesta clara: las mejores Smash Burgers de La Mancha.' },
@@ -18,6 +18,8 @@ const VALORES = [
   { icon: '❤️', titulo: 'Hecho con pasión',        texto: 'Cada hamburguesa es una obra de amor. Porque la diferencia entre bueno y extraordinario está en los detalles.' },
 ]
 
+const cardStyle = { background: 'rgba(255,255,255,0.04)' }
+
 export default function About() {
   return (
     <>
@@ -28,7 +30,7 @@ export default function About() {
 
       <main className="pt-20">
         {/* Hero */}
-        <section className="bg-brand-dark py-24 text-center">
+        <section className="py-24 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -44,8 +46,11 @@ export default function About() {
           </motion.div>
         </section>
 
+        {/* Divisor */}
+        <div className="h-px mx-auto max-w-7xl bg-gradient-to-r from-transparent via-brand-blue/40 to-transparent mb-16" />
+
         {/* Historia */}
-        <section className="py-20 bg-white">
+        <section className="py-16">
           <div className="container-site max-w-4xl">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -57,13 +62,12 @@ export default function About() {
               <h2 className="section-title mb-6">
                 UNA PASIÓN <span className="text-brand-blue">POR LAS BURGERS</span>
               </h2>
-              <p className="font-body text-gray-600 text-xl leading-relaxed">
+              <p className="font-body text-white/60 text-xl leading-relaxed">
                 Shelly's Burgers nació en 2025 con una misión simple: revolucionar el panorama gastronómico de Ciudad Real con las auténticas Smash Burgers americanas, elaboradas con respeto por el producto y sin atajos.
               </p>
             </motion.div>
 
-            {/* Timeline */}
-            <div className="space-y-12">
+            <div className="space-y-8">
               {TIMELINE.map(({ year, titulo, texto }, i) => (
                 <motion.div
                   key={i}
@@ -77,8 +81,8 @@ export default function About() {
                     {year}
                   </div>
                   <div className="pt-2">
-                    <h3 className="font-body font-bold text-brand-dark text-xl mb-2">{titulo}</h3>
-                    <p className="font-body text-gray-600 leading-relaxed">{texto}</p>
+                    <h3 className="font-body font-bold text-white text-xl mb-2">{titulo}</h3>
+                    <p className="font-body text-white/60 leading-relaxed">{texto}</p>
                   </div>
                 </motion.div>
               ))}
@@ -86,21 +90,24 @@ export default function About() {
           </div>
         </section>
 
+        {/* Divisor */}
+        <div className="h-px mx-auto max-w-7xl bg-gradient-to-r from-transparent via-brand-blue/30 to-transparent my-4" />
+
         {/* Valores */}
-        <section className="py-20 bg-gray-50">
+        <section className="py-16">
           <div className="container-site">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-center mb-14"
+              className="text-center mb-12"
             >
               <h2 className="section-title">
                 NUESTROS <span className="text-brand-blue">VALORES</span>
               </h2>
             </motion.div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {VALORES.map(({ icon, titulo, texto }, i) => (
                 <motion.div
                   key={titulo}
@@ -108,11 +115,12 @@ export default function About() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: i * 0.08 }}
-                  className="bg-white rounded-2xl p-7 shadow-card hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300"
+                  className="rounded-2xl p-7 border border-white/[0.08] hover:border-brand-blue/40 hover:-translate-y-1 transition-all duration-300"
+                  style={cardStyle}
                 >
                   <span className="text-4xl block mb-4">{icon}</span>
-                  <h3 className="font-body font-bold text-brand-dark text-lg mb-2">{titulo}</h3>
-                  <p className="font-body text-gray-500 text-sm leading-relaxed">{texto}</p>
+                  <h3 className="font-body font-bold text-white text-lg mb-2">{titulo}</h3>
+                  <p className="font-body text-white/50 text-sm leading-relaxed">{texto}</p>
                 </motion.div>
               ))}
             </div>
@@ -120,17 +128,18 @@ export default function About() {
         </section>
 
         {/* CTA */}
-        <section className="py-20 bg-brand-blue text-white text-center">
-          <div className="container-site">
-            <h2 className="font-display text-5xl md:text-6xl mb-6">¿LISTO PARA PROBARLAS?</h2>
-            <p className="font-body text-white/80 text-lg mb-10 max-w-md mx-auto">
-              Ven a visitarnos o pide a domicilio. Te prometemos que no te arrepentirás.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/carta" className="btn-white text-base px-8 py-4">Ver la Carta</Link>
-              <Link to="/contacto" className="btn-outline border-white text-white hover:bg-white hover:text-brand-blue text-base px-8 py-4">
-                Cómo Llegar
-              </Link>
+        <section className="py-16">
+          <div className="container-site text-center">
+            <div className="rounded-3xl border border-brand-blue/30 p-14"
+                 style={{ background: 'linear-gradient(135deg, rgba(0,102,255,0.15) 0%, rgba(0,26,92,0.3) 100%)' }}>
+              <h2 className="font-display text-5xl md:text-6xl text-white mb-6">¿LISTO PARA PROBARLAS?</h2>
+              <p className="font-body text-white/65 text-lg mb-10 max-w-md mx-auto">
+                Ven a visitarnos o pide a domicilio. Te prometemos que no te arrepentirás.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link to="/carta" className="btn-primary text-base px-8 py-4">Ver la Carta</Link>
+                <Link to="/contacto" className="btn-outline text-base px-8 py-4">Cómo Llegar</Link>
+              </div>
             </div>
           </div>
         </section>

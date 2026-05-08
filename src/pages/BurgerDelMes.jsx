@@ -16,8 +16,7 @@ export default function BurgerDelMes() {
       </Helmet>
 
       <main className="pt-20">
-        {/* Hero de la sección */}
-        <section className="bg-gradient-dark py-20 text-center">
+        <section className="py-20 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -34,17 +33,17 @@ export default function BurgerDelMes() {
           </motion.div>
         </section>
 
-        {/* Detalle */}
+        <div className="h-px mx-auto max-w-7xl bg-gradient-to-r from-transparent via-brand-blue/40 to-transparent mb-16" />
+
         {loading && (
-          <div className="py-24 bg-white">
+          <div className="py-16">
             <div className="container-site max-w-4xl">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                <div className="aspect-square rounded-3xl skeleton" />
+                <div className="aspect-square rounded-3xl skeleton-dark" />
                 <div className="space-y-4 pt-4">
-                  <div className="h-12 w-3/4 rounded-2xl skeleton" />
-                  <div className="h-5 w-full rounded skeleton" />
-                  <div className="h-5 w-full rounded skeleton" />
-                  <div className="h-5 w-2/3 rounded skeleton" />
+                  <div className="h-12 w-3/4 rounded-2xl skeleton-dark" />
+                  <div className="h-5 w-full rounded skeleton-dark" />
+                  <div className="h-5 w-full rounded skeleton-dark" />
                 </div>
               </div>
             </div>
@@ -52,7 +51,7 @@ export default function BurgerDelMes() {
         )}
 
         {!loading && !error && burger && (
-          <section className="py-20 bg-white">
+          <section className="pb-20">
             <div className="container-site max-w-5xl">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
                 <motion.div
@@ -61,7 +60,7 @@ export default function BurgerDelMes() {
                   transition={{ duration: 0.7 }}
                   className="relative group"
                 >
-                  <div className="rounded-3xl overflow-hidden aspect-square bg-gray-100 shadow-card-hover">
+                  <div className="rounded-3xl overflow-hidden aspect-square border border-brand-blue/20">
                     <img
                       src={getBurgerOfMonthImage(burger.imagen)}
                       alt={burger.nombre}
@@ -81,17 +80,17 @@ export default function BurgerDelMes() {
                   transition={{ duration: 0.7 }}
                 >
                   <p className="font-body text-xs font-semibold tracking-[0.2em] uppercase text-brand-blue mb-3">{burger.mes}</p>
-                  <h2 className="font-display text-5xl md:text-6xl text-brand-dark mb-6 leading-none">
+                  <h2 className="font-display text-5xl md:text-6xl text-white mb-6 leading-none">
                     {burger.nombre.toUpperCase()}
                   </h2>
-                  <p className="font-body text-gray-600 text-lg leading-relaxed mb-8">{burger.descripcion}</p>
+                  <p className="font-body text-white/65 text-lg leading-relaxed mb-8">{burger.descripcion}</p>
 
                   {burger.ingredientes && (
                     <div className="mb-8">
-                      <h3 className="font-body font-semibold text-brand-dark mb-3">Ingredientes:</h3>
+                      <h3 className="font-body font-semibold text-white mb-3">Ingredientes:</h3>
                       <ul className="space-y-2">
                         {burger.ingredientes.map((ing, i) => (
-                          <li key={i} className="flex items-center gap-3 font-body text-sm text-gray-600">
+                          <li key={i} className="flex items-center gap-3 font-body text-sm text-white/60">
                             <MdStar className="text-brand-blue shrink-0" size={14} />
                             {ing}
                           </li>

@@ -3,7 +3,7 @@ import { CATEGORIAS } from '../../utils/constants'
 
 export default function CategoryFilter({ active, onChange }) {
   return (
-    <div className="flex flex-wrap justify-center gap-3" role="tablist" aria-label="Filtrar por categoría">
+    <div className="flex flex-wrap justify-center gap-2" role="tablist" aria-label="Filtrar por categoría">
       {CATEGORIAS.map(({ id, label }) => {
         const isActive = active === id
         return (
@@ -13,13 +13,14 @@ export default function CategoryFilter({ active, onChange }) {
             aria-selected={isActive}
             onClick={() => onChange(id)}
             className={`
-              relative font-body font-semibold text-sm px-6 py-2.5 rounded-full
-              transition-all duration-300
-              focus:outline-none focus:ring-2 focus:ring-brand-blue focus:ring-offset-2
+              relative font-body font-semibold text-xs px-5 py-2 rounded-full
+              transition-all duration-250
+              focus:outline-none focus:ring-2 focus:ring-brand-blue focus:ring-offset-2 focus:ring-offset-transparent
               ${isActive
                 ? 'bg-brand-blue text-white shadow-blue'
-                : 'bg-white text-gray-600 border border-gray-200 hover:border-brand-blue hover:text-brand-blue'}
+                : 'text-white/60 border border-white/15 hover:border-brand-blue/60 hover:text-white'}
             `}
+            style={!isActive ? { background: 'rgba(255,255,255,0.05)' } : {}}
           >
             {isActive && (
               <motion.span

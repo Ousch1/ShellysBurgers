@@ -7,7 +7,7 @@ export const getProductImage = (filename) => {
 
 export const getBurgerOfMonthImage = (filename) => {
   if (!filename) return PLACEHOLDER
-  return `/images/hamburguesa-mes/${filename}`
+  return `/images/productos/${filename}`
 }
 
 export const getHeroImage = (filename) => {

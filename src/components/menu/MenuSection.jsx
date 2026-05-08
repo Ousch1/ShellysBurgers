@@ -17,7 +17,7 @@ export default function MenuSection() {
   if (error) {
     return (
       <div className="py-24 text-center">
-        <p className="font-body text-gray-500 text-lg">No se pudo cargar la carta. Por favor, inténtalo más tarde.</p>
+        <p className="font-body text-white/40 text-lg">No se pudo cargar la carta. Por favor, inténtalo más tarde.</p>
       </div>
     )
   }
@@ -25,20 +25,15 @@ export default function MenuSection() {
   return (
     <div>
       {/* Filtros */}
-      <div className="mb-12">
+      <div className="mb-8">
         <CategoryFilter active={activeCategory} onChange={setActiveCategory} />
       </div>
 
-      {/* Conteo */}
-      <p className="font-body text-gray-400 text-sm text-center mb-8">
-        {filtered.length} {filtered.length === 1 ? 'producto' : 'productos'}
-      </p>
-
-      {/* Grid */}
+      {/* Grid compacto */}
       <AnimatePresence mode="popLayout">
         <motion.div
           layout
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+          className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3"
         >
           {filtered.map((product) => (
             <ProductCard key={product.id} product={product} />
@@ -48,7 +43,7 @@ export default function MenuSection() {
 
       {filtered.length === 0 && (
         <div className="py-16 text-center">
-          <p className="font-body text-gray-400 text-lg">No hay productos en esta categoría.</p>
+          <p className="font-body text-white/40 text-lg">No hay productos en esta categoría.</p>
         </div>
       )}
     </div>
@@ -57,15 +52,15 @@ export default function MenuSection() {
 
 function MenuSkeleton() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      {Array.from({ length: 6 }).map((_, i) => (
-        <div key={i} className="rounded-2xl overflow-hidden shadow-card">
-          <div className="aspect-video skeleton" />
-          <div className="p-5 space-y-3">
-            <div className="h-5 w-3/4 rounded skeleton" />
-            <div className="h-4 w-full rounded skeleton" />
-            <div className="h-4 w-2/3 rounded skeleton" />
-            <div className="h-10 w-full rounded-full skeleton mt-4" />
+    <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+      {Array.from({ length: 8 }).map((_, i) => (
+        <div key={i} className="rounded-xl overflow-hidden border border-white/[0.07]"
+             style={{ background: 'linear-gradient(160deg, #0d1428 0%, #080c18 100%)' }}>
+          <div className="aspect-[3/4] skeleton-dark" />
+          <div className="p-4 space-y-2">
+            <div className="h-4 w-3/4 rounded skeleton-dark" />
+            <div className="h-3 w-full rounded skeleton-dark" />
+            <div className="h-3 w-2/3 rounded skeleton-dark" />
           </div>
         </div>
       ))}

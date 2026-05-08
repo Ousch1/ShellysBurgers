@@ -53,7 +53,7 @@ export default function HamburguesaDelMes() {
             {/* Marco decorativo */}
             <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-brand-blue/30 to-transparent blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
-            <div className="relative rounded-3xl overflow-hidden aspect-square bg-brand-gray-2 shadow-blue-lg">
+            <div className="relative rounded-3xl overflow-hidden aspect-square border border-brand-blue/20 shadow-blue-lg">
               <img
                 src={getBurgerOfMonthImage(burger.imagen)}
                 alt={`Hamburguesa del mes: ${burger.nombre}`}
@@ -135,13 +135,13 @@ function HamburguesaDelMesSkeleton() {
     <section className="bg-gradient-dark py-24">
       <div className="container-site">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="aspect-square rounded-3xl skeleton" />
+          <div className="aspect-square rounded-3xl skeleton-dark" />
           <div className="space-y-4">
-            <div className="h-8 w-48 rounded-full skeleton" />
-            <div className="h-20 w-full rounded-2xl skeleton" />
-            <div className="h-6 w-3/4 rounded-xl skeleton" />
-            <div className="h-6 w-1/2 rounded-xl skeleton" />
-            <div className="h-14 w-56 rounded-full skeleton mt-8" />
+            <div className="h-8 w-48 rounded-full skeleton-dark" />
+            <div className="h-20 w-full rounded-2xl skeleton-dark" />
+            <div className="h-6 w-3/4 rounded-xl skeleton-dark" />
+            <div className="h-6 w-1/2 rounded-xl skeleton-dark" />
+            <div className="h-14 w-56 rounded-full skeleton-dark mt-8" />
           </div>
         </div>
       </div>

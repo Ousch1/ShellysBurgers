@@ -14,7 +14,7 @@ export default function BurgerOfMonth() {
       <div className="pt-20" />
 
       {/* Cabecera de página */}
-      <section className="py-20 bg-white text-center">
+      <section className="py-20 text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}

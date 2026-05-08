@@ -11,7 +11,7 @@ const VALORES = [
 
 export default function About() {
   return (
-    <section className="py-24 bg-white" id="nosotros" aria-label="Sobre nosotros">
+    <section className="py-24 bg-transparent" id="nosotros" aria-label="Sobre nosotros">
       <div className="container-site">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
@@ -29,16 +29,16 @@ export default function About() {
               SMASH BURGERS<br />
               <span className="text-brand-blue">CON ALMA</span>
             </h2>
-            <p className="font-body text-gray-600 text-lg leading-relaxed mb-6">
-              Shelly's Burgers nació en 2025 con una misión clara: llevar a Ciudad Real las auténticas <strong className="text-brand-dark">Smash Burgers</strong> americanas, elaboradas con la mejor carne y una técnica depurada.
+            <p className="font-body text-white/65 text-lg leading-relaxed mb-6">
+              Shelly's Burgers nació en 2025 con una misión clara: llevar a Ciudad Real las auténticas <strong className="text-white">Smash Burgers</strong> americanas, elaboradas con la mejor carne y una técnica depurada.
             </p>
-            <p className="font-body text-gray-600 leading-relaxed mb-8">
+            <p className="font-body text-white/55 leading-relaxed mb-8">
               Cada hamburguesa es un proceso de precisión: la carne se aplasta sobre la plancha a alta temperatura para conseguir esa corteza dorada y crujiente que hace irresistible cada bocado. Sin atajos, sin congelados — solo producto fresco y pasión por el oficio.
             </p>
 
             <div className="flex items-center gap-3 mb-8">
               <MdVerified className="text-brand-blue" size={22} />
-              <span className="font-body text-gray-700 font-medium">Las mejores Smash Burgers de La Mancha</span>
+              <span className="font-body text-white/70 font-medium">Las mejores Smash Burgers de La Mancha</span>
             </div>
 
             <Link to="/nosotros" className="btn-primary">
@@ -52,7 +52,7 @@ export default function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="grid grid-cols-1 sm:grid-cols-2 gap-5"
+            className="grid grid-cols-1 sm:grid-cols-2 gap-4"
           >
             {VALORES.map(({ emoji, titulo, texto }, i) => (
               <motion.div
@@ -61,11 +61,12 @@ export default function About() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="bg-gray-50 rounded-2xl p-6 hover:bg-brand-blue/5 hover:border-brand-blue/20 border border-transparent transition-all duration-300"
+                className="rounded-2xl p-6 border border-white/[0.08] hover:border-brand-blue/40 transition-all duration-300"
+                style={{ background: 'rgba(255,255,255,0.04)' }}
               >
                 <span className="text-3xl mb-3 block">{emoji}</span>
-                <h3 className="font-body font-bold text-brand-dark mb-2">{titulo}</h3>
-                <p className="font-body text-gray-500 text-sm leading-relaxed">{texto}</p>
+                <h3 className="font-body font-bold text-white mb-2">{titulo}</h3>
+                <p className="font-body text-white/50 text-sm leading-relaxed">{texto}</p>
               </motion.div>
             ))}
           </motion.div>

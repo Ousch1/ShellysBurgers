@@ -170,6 +170,86 @@
     "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
   {
+    "id": 38,
+    "nombre": "Mayonesa",
+    "descripcion": "Mayonesa casera",
+    "precio_tienda": "0,80€",
+    "precio_glovo": "1€",
+    "imagen": "mayonesa.webp",
+    "categoria": "salsas",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
+  },
+  {
+    "id": 39,
+    "nombre": "Salsa BBQ",
+    "descripcion": "Salsa barbacoa ahumada",
+    "precio_tienda": "0,80€",
+    "precio_glovo": "1€",
+    "imagen": "salsa-bbq.webp",
+    "categoria": "salsas",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
+  },
+  {
+    "id": 40,
+    "nombre": "Sweet Chilly",
+    "descripcion": "Salsa agridulce con toque picante",
+    "precio_tienda": "0,80€",
+    "precio_glovo": "1€",
+    "imagen": "sweet-chilly.webp",
+    "categoria": "salsas",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
+  },
+  {
+    "id": 41,
+    "nombre": "Salsa Cheddar",
+    "descripcion": "Salsa de queso cheddar fundido",
+    "precio_tienda": "0,80€",
+    "precio_glovo": "1€",
+    "imagen": "salsa-cheddar.webp",
+    "categoria": "salsas",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
+  },
+  {
+    "id": 42,
+    "nombre": "Alioli",
+    "descripcion": "Alioli casero",
+    "precio_tienda": "0,80€",
+    "precio_glovo": "1€",
+    "imagen": "alioli.webp",
+    "categoria": "salsas",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
+  },
+  {
+    "id": 43,
+    "nombre": "Salsa de Frutos Rojos",
+    "descripcion": "Salsa dulce de frutos rojos, perfecta con tequeños",
+    "precio_tienda": "0,80€",
+    "precio_glovo": "1€",
+    "imagen": "salsa-frutos-rojos.webp",
+    "categoria": "salsas",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
+  },
+  {
+    "id": 44,
+    "nombre": "Miel-Mostaza",
+    "descripcion": "Salsa de miel y mostaza",
+    "precio_tienda": "0,80€",
+    "precio_glovo": "1€",
+    "imagen": "miel-mostaza.webp",
+    "categoria": "salsas",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
+  },
+  {
+    "id": 45,
+    "nombre": "Relish",
+    "descripcion": "Relish de pepinillos encurtidos",
+    "precio_tienda": "0,80€",
+    "precio_glovo": "1€",
+    "imagen": "relish.webp",
+    "categoria": "salsas",
+    "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
+  },
+  {
     "id": 18,
     "nombre": "Tequeños de Nutella",
     "descripcion": "Tequeños rellenos de nutella caliente (4 unidades)",

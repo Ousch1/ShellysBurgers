@@ -29,6 +29,7 @@ export const CATEGORIAS = [
   { id: "todos",          label: "Todos" },
   { id: "hamburguesas",   label: "Hamburguesas" },
   { id: "complementos",   label: "Complementos" },
+  { id: "salsas",         label: "Salsas" },
   { id: "postres",        label: "Postres" },
   { id: "bebidas",        label: "Bebidas" },
 ]

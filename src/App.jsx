@@ -20,7 +20,9 @@ import Contact     from './pages/Contact'
 export default function App() {
   return (
     <HelmetProvider>
-      <div className="flex flex-col min-h-screen" style={{ background: 'linear-gradient(180deg, #000000 0%, #00061a 30%, #000d33 65%, #001a5c 100%)', backgroundAttachment: 'fixed' }}>
+      {/* Fondo fijo — no repinta en scroll, funciona bien en móvil */}
+      <div style={{ position: 'fixed', inset: 0, zIndex: -1, background: 'linear-gradient(180deg, #000000 0%, #00061a 30%, #000d33 65%, #001a5c 100%)' }} />
+      <div className="flex flex-col min-h-screen">
         <ScrollToTop />
         <Header />
 

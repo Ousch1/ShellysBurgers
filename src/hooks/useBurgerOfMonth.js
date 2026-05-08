@@ -1,17 +1,23 @@
 import { useState, useEffect } from 'react'
 
+// Caché a nivel de módulo — persiste entre navegaciones sin re-fetch
+let cached = null
+
 export const useBurgerOfMonth = () => {
-  const [burger, setBurger]   = useState(null)
-  const [loading, setLoading] = useState(true)
+  const [burger, setBurger]   = useState(cached || null)
+  const [loading, setLoading] = useState(!cached)
   const [error, setError]     = useState(null)
 
   useEffect(() => {
+    if (cached) return
+
     fetch('/data/hamburguesa-mes.json')
       .then((res) => {
         if (!res.ok) throw new Error('No se pudo cargar la hamburguesa del mes')
         return res.json()
       })
       .then((data) => {
+        cached = data
         setBurger(data)
         setLoading(false)
       })

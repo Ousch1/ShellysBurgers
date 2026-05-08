@@ -1,17 +1,23 @@
 import { useState, useEffect } from 'react'
 
+// Caché a nivel de módulo — persiste entre navegaciones sin re-fetch
+let cached = null
+
 export const useProducts = () => {
-  const [products, setProducts] = useState([])
-  const [loading, setLoading]   = useState(true)
+  const [products, setProducts] = useState(cached || [])
+  const [loading, setLoading]   = useState(!cached)
   const [error, setError]       = useState(null)
 
   useEffect(() => {
+    if (cached) return
+
     fetch('/data/productos.json')
       .then((res) => {
         if (!res.ok) throw new Error('No se pudo cargar la carta')
         return res.json()
       })
       .then((data) => {
+        cached = data
         setProducts(data)
         setLoading(false)
       })

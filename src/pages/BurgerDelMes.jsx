@@ -65,6 +65,7 @@ export default function BurgerDelMes() {
                       src={getBurgerOfMonthImage(burger.imagen)}
                       alt={burger.nombre}
                       loading="eager"
+                      decoding="async"
                       onError={handleImageError}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                     />

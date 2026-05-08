@@ -5,7 +5,7 @@
     "descripcion": "Doble smash de carne de wagyu, bacon crujiente, doble cheddar y mayonesa",
     "precio_tienda": "14€",
     "precio_glovo": "15€",
-    "imagen": "shellys-wagyu.jpeg",
+    "imagen": "shellys-wagyu.webp",
     "categoria": "hamburguesas",
     "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
@@ -15,7 +15,7 @@
     "descripcion": "Triple smash, triple cheddar, bacon crujiente, salsa miel-mostaza y cebolla frita",
     "precio_tienda": "13€",
     "precio_glovo": "14€",
-    "imagen": "triple-shellys.jpeg",
+    "imagen": "triple-shellys.webp",
     "categoria": "hamburguesas",
     "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
@@ -25,7 +25,7 @@
     "descripcion": "Doble smash, doble cheddar, bacon, pulled pork desmechado y salsa BBQ",
     "precio_tienda": "13€",
     "precio_glovo": "14€",
-    "imagen": "shellys-pulled-pork-bbq.jpeg",
+    "imagen": "shellys-pulled-pork-bbq.webp",
     "categoria": "hamburguesas",
     "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
@@ -35,7 +35,7 @@
     "descripcion": "Doble smash, cheddar, bacon crujiente y salsa cheddar",
     "precio_tienda": "12€",
     "precio_glovo": "13€",
-    "imagen": "shellys-boss.jpeg",
+    "imagen": "shellys-boss.webp",
     "categoria": "hamburguesas",
     "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
@@ -45,7 +45,7 @@
     "descripcion": "Doble smash, manchego viejo, tomate, lechuga, cebolla natural y mayonesa",
     "precio_tienda": "12€",
     "precio_glovo": "13€",
-    "imagen": "shellys-essential.jpeg",
+    "imagen": "shellys-essential.webp",
     "categoria": "hamburguesas",
     "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
@@ -55,7 +55,7 @@
     "descripcion": "Doble smash, queso azul, cebolla caramelizada casera y salsa de frutos rojos",
     "precio_tienda": "12€",
     "precio_glovo": "13€",
-    "imagen": "shellys-caramel-glow.jpeg",
+    "imagen": "shellys-caramel-glow.webp",
     "categoria": "hamburguesas",
     "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
@@ -65,7 +65,7 @@
     "descripcion": "Doble smash, doble cheddar, lechuga y mayonesa",
     "precio_tienda": "10€",
     "precio_glovo": "11€",
-    "imagen": "shellys-classic.jpeg",
+    "imagen": "shellys-classic.webp",
     "categoria": "hamburguesas",
     "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
@@ -75,7 +75,7 @@
     "descripcion": "Doble smash, doble cheddar y pepinillos",
     "precio_tienda": "10€",
     "precio_glovo": "11€",
-    "imagen": "shellys-ricky.jpeg",
+    "imagen": "shellys-ricky.webp",
     "categoria": "hamburguesas",
     "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
@@ -85,7 +85,7 @@
     "descripcion": "Doble smash, queso gouda, tomate, jamón serrano a la plancha y salsa de sweet chilly",
     "precio_tienda": "14€",
     "precio_glovo": "15€",
-    "imagen": "shellys-cap.jpeg",
+    "imagen": "shellys-cap.webp",
     "categoria": "hamburguesas",
     "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
@@ -95,7 +95,7 @@
     "descripcion": "Patatas con bacon crujiente, queso fundido y salsa de cheddar",
     "precio_tienda": "7€",
     "precio_glovo": "7,50€",
-    "imagen": "cheddar-bacon-fries.jpeg",
+    "imagen": "cheddar-bacon-fries.webp",
     "categoria": "complementos",
     "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
@@ -105,7 +105,7 @@
     "descripcion": "Tequeños de queso gouda con salsa de frutos rojos (5 unidades)",
     "precio_tienda": "6€",
     "precio_glovo": "6,50€",
-    "imagen": "tequenos-queso.jpeg",
+    "imagen": "tequenos-queso.webp",
     "categoria": "complementos",
     "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
@@ -115,7 +115,7 @@
     "descripcion": "Bolas crujientes de queso y jalapeño con salsa de frutos rojos (8 unidades)",
     "precio_tienda": "6€",
     "precio_glovo": "6,50€",
-    "imagen": "chilly-bites.jpeg",
+    "imagen": "chilly-bites.webp",
     "categoria": "complementos",
     "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
@@ -125,7 +125,7 @@
     "descripcion": "Aros de cebolla con un rebozado crujiente con alioli",
     "precio_tienda": "6€",
     "precio_glovo": "6,50€",
-    "imagen": "aros-cebolla.jpeg",
+    "imagen": "aros-cebolla.webp",
     "categoria": "complementos",
     "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
@@ -135,7 +135,7 @@
     "descripcion": "Alitas de pollo crujiente estilo BBQ ahumado con salsa BBQ (5 unidades)",
     "precio_tienda": "6€",
     "precio_glovo": "6,50€",
-    "imagen": "alitas-pollo.jpeg",
+    "imagen": "alitas-pollo.webp",
     "categoria": "complementos",
     "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
@@ -145,7 +145,7 @@
     "descripcion": "Tiras de pechuga de pollo rebozado crujientes con salsa sweet chilly",
     "precio_tienda": "6€",
     "precio_glovo": "6,50€",
-    "imagen": "tiras-pollo.jpeg",
+    "imagen": "tiras-pollo.webp",
     "categoria": "complementos",
     "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
@@ -165,7 +165,7 @@
     "descripcion": "Patatas con salsa de sweet chilly y alioli",
     "precio_tienda": "5€",
     "precio_glovo": "5,50€",
-    "imagen": "shellys-fries.jpeg",
+    "imagen": "shellys-fries.webp",
     "categoria": "complementos",
     "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },
@@ -175,7 +175,7 @@
     "descripcion": "Tequeños rellenos de nutella caliente (4 unidades)",
     "precio_tienda": "6€",
     "precio_glovo": "6,50€",
-    "imagen": "tequenos-nutella.jpeg",
+    "imagen": "tequenos-nutella.webp",
     "categoria": "postres",
     "glovo_url": "https://glovoapp.com/es/es/ciudad-real/stores/shellys-burguer-ciudad-real"
   },

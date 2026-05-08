@@ -25,6 +25,7 @@ export default function ProductCard({ product }) {
           src={getProductImage(imagen)}
           alt={nombre}
           loading="lazy"
+          decoding="async"
           onError={handleImageError}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
         />

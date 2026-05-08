@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
 import { useProducts } from '../../hooks/useProducts'
 import CategoryFilter from './CategoryFilter'
 import ProductCard from './ProductCard'
@@ -30,16 +29,11 @@ export default function MenuSection() {
       </div>
 
       {/* Grid compacto */}
-      <AnimatePresence mode="popLayout">
-        <motion.div
-          layout
-          className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3"
-        >
-          {filtered.map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
-        </motion.div>
-      </AnimatePresence>
+      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+        {filtered.map((product) => (
+          <ProductCard key={product.id} product={product} />
+        ))}
+      </div>
 
       {filtered.length === 0 && (
         <div className="py-16 text-center">

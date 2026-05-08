@@ -16,7 +16,7 @@ export default function ProductCard({ product }) {
       aria-label={`Producto: ${nombre}`}
     >
       {/* Imagen */}
-      <div className="relative aspect-[4/3] overflow-hidden bg-gray-100">
+      <div className="relative aspect-video overflow-hidden bg-gray-100">
         <img
           src={getProductImage(imagen)}
           alt={nombre}
